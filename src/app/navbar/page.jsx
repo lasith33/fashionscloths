@@ -11,17 +11,17 @@ export default function Navbar() {
 
       {/* Logo */}
       <div className="flex items-center space-x-2">
-        <div className="w-5 h-5 bg-pink-400 rounded-full flex items-center justify-center">
-          <div className="w-2 h-2 bg-black rounded-full"></div>
-        </div>
-        <span className="text-pink-300 font-semibold text-lg">Floral Haven</span>
+        <span className="text-white font-semibold text-lg"><span className="text-[#D4AF37]">Galle</span>style</span>
       </div>
 
       {/* Menu Items */}
       <ul className="hidden md:flex space-x-6">
         <li className="hover:text-pink-400 cursor-pointer">Home</li>
-        <li className="hover:text-pink-400 cursor-pointer">Shop</li>
-        <li className="hover:text-pink-400 cursor-pointer">Occasions</li>
+        <li className="hover:text-pink-400 cursor-pointer">Mens</li>
+        <li className="hover:text-pink-400 cursor-pointer">Womans</li>
+        <li className="hover:text-pink-400 cursor-pointer">Kids</li>
+        <li className="hover:text-pink-400 cursor-pointer">Gift Pack</li>
+        <li className="hover:text-pink-400 cursor-pointer">Others</li>
         <li className="hover:text-pink-400 cursor-pointer">About Us</li>
         <li className="hover:text-pink-400 cursor-pointer">Contact Us</li> 
 
