@@ -55,7 +55,9 @@ export default function Navbar() {
       {/* Icons */}
       <div className="flex items-center space-x-4">
         <FaSearch className="cursor-pointer hover:text-pink-400" />
-        <FaUser className="cursor-pointer hover:text-pink-400" />
+         <Link href="/userAuthentication">
+    <FaUser className="cursor-pointer hover:text-pink-400 transition-colors duration-300" />
+  </Link>
       </div>
     </nav>
   );
